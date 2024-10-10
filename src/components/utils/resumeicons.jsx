@@ -1,0 +1,27 @@
+import React from 'react';
+import Linkedin from '../../icons/linkedin.svg';
+import Github from '../../icons/gh.svg';
+
+const ResumeIcons = () => {
+    return (
+        <div className='flex gap-3'>
+            <button className="
+                rounded-full
+                cursor-pointer
+                px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
+            ">
+                <img className='w-12 h-12' src={Linkedin} alt="Linkedin" />
+            </button>   
+
+            <button className="
+                rounded-full
+                cursor-pointer
+                px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
+            ">
+                <img className='w-12 h-12' src={Github} alt="Github" />
+            </button> 
+        </div>
+    );
+};
+
+export default ResumeIcons;

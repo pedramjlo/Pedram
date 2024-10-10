@@ -3,8 +3,8 @@ import React from 'react';
 
 const Home = () => {
     return(
-        <div>
-            
+        <div className="bg-custom-black">
+
         </div>
     );
 };

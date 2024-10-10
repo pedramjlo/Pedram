@@ -17,16 +17,20 @@ const Header = () => {
         <header className='
             w-full
             h-10
-            py-5 px-4
+            py-8 px-12
+            md:py-8 md:px-12
 
             flex
             flex-col
-            gap-8
-            md:flex-row
             justify-between
             items-center
+            gap-8
 
-            sm:gap-10
+            md:flex-row 
+
+            
+
+
             md:flex
         '>
 
@@ -34,7 +38,10 @@ const Header = () => {
                 href="#"
                 >
                 <span className='
-                    sm:text-4xl
+                    font-extrabold
+                    text-3xl
+                    tracking-widest
+                    
                     md:text-4xl
                     lg:text-2xl
 

@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 
 import Header from './sections/header';
+import Hero from './sections/hero';
+
 import { useTranslation } from 'react-i18next';
 
 
-import ResumeIcons from './utils/resumeicons';
+
 
 const Home = () => {
 
@@ -17,11 +19,14 @@ const Home = () => {
     return(
         <div className="
         py-5 px-16
-        sm:py-
+        grid
+        grid-cols-1
+        md:flex md:flex-col
         w-full
         bg-custom-black
         ">
             <Header />
+            <Hero />
 
         </div>
     );

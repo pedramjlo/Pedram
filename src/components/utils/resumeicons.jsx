@@ -15,7 +15,9 @@ const ResumeIcons = () => {
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
             ">
-                <img className='w-12 h-12' src={Linkedin} alt="Linkedin" />
+                <img className='
+                w-10 h-10
+                ' src={Linkedin} alt="Linkedin" />
             </button>   
 
             <button className="
@@ -25,7 +27,9 @@ const ResumeIcons = () => {
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
             ">
-                <img className='w-12 h-12' src={Github} alt="Github" />
+                <img className='
+                w-10 h-10
+                ' src={Github} alt="Github" />
             </button> 
         </div>
     );

@@ -20,8 +20,10 @@ const Header = () => {
             py-5 px-4
 
             flex
-            justify-between
             flex-col
+            gap-8
+            md:flex-row
+            justify-between
             items-center
 
             sm:gap-10

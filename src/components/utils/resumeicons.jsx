@@ -4,8 +4,13 @@ import Github from '../../icons/gh.svg';
 
 const ResumeIcons = () => {
     return (
-        <div className='flex gap-3'>
+        <div className='
+        flex
+         gap-3'>
+
             <button className="
+                w-full
+                md:w-1/2
                 rounded-full
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
@@ -14,6 +19,8 @@ const ResumeIcons = () => {
             </button>   
 
             <button className="
+                w-full
+                md:w-1/2
                 rounded-full
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]

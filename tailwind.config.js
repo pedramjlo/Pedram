@@ -6,6 +6,8 @@ module.exports = {
   ],
 
   theme: {
+
+
     extend: {
       colors: {
         "custom-black": "#1E201E",
@@ -16,7 +18,14 @@ module.exports = {
       fonts: {
         "serif": ["El Messiri", "serif"],
         "sans-serif": ["El Messiri", "sans-serif"],
-      }
+      },
+
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
     },
   },
 

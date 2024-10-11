@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { useTranslation } from 'react-i18next';
-import i18n from 'i18next';
 
-import ResumeIcons from '../utils/resumeicons';
+import ResumeIcons from '../utils/navitems';
 
 
 const Header = () => {
@@ -16,22 +15,17 @@ const Header = () => {
     return(
         <header className='
             w-full
-            h-10
-            py-8 px-12
-            md:py-8 md:px-12
+            h-auto
+
+            pt-8 px-10
+            md:py-5 md:px-11
 
             flex
             flex-col
             justify-between
             items-center
-            gap-8
 
             md:flex-row 
-
-            
-
-
-            md:flex
         '>
 
                 <a 
@@ -41,6 +35,7 @@ const Header = () => {
                     font-extrabold
                     text-3xl
                     tracking-widest
+                    
                     
                     md:text-4xl
                     lg:text-2xl

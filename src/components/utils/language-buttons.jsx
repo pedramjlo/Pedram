@@ -51,7 +51,6 @@ const LanguageButtons = () => {
                         group relative inline-flex items-center justify-center overflow-hidden bg-neutral-950  transition hover:scale-110 rounded-full">
                     <img
                         className='
-
                             sm:w-0 sm:h-0
                             md:w-6 md:h-6
                             rounded-full

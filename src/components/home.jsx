@@ -18,10 +18,14 @@ const Home = () => {
 
     return(
         <div className="
-        py-5 px-16
+
+        pt-* pb-10 px-10
+        md:py-5 md:px-16
+
         grid
         grid-cols-1
-        md:flex md:flex-col
+        gap-26
+        md:flex md:flex-col md:gap-0
         w-full
         bg-custom-black
         ">

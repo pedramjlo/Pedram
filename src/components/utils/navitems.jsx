@@ -6,7 +6,7 @@ const ResumeIcons = () => {
     return (
         <div className='
         flex
-         gap-3'>
+         '>
 
             <button className="
                 w-full

@@ -3,7 +3,7 @@ import React from 'react';
 import Man from '../../images/man.svg';
 
 import ModalButton from '../utils/modal-button';
-
+import LanguageButtons from '../utils/language-buttons';
 
 import { useTranslation } from 'react-i18next';
 
@@ -65,6 +65,7 @@ const Hero = () => {
                         {t('description')}
                     </p>
                 </div>
+                
                 
                 <ModalButton />
 

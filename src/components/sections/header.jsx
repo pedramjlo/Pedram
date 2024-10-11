@@ -31,7 +31,7 @@ const Header = () => {
         '>
 
                 <a 
-                href="#"
+                href="/"
                 >
                 <span className='
                     font-extrabold

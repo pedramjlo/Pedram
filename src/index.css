@@ -7,3 +7,32 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
 
+/* Disable hover effect and first container on smaller devices */
+@media (max-width: 768px) {
+    .language-button {
+        width: 6rem; /* Adjust width for mobile */
+        height: 6rem; /* Adjust height for mobile */
+    }
+    
+    .language-button.active {
+        border: 2px solid #00bcd4; /* Cyan border */
+        background-color: #00bcd4; /* Cyan background */
+        box-shadow: 0 0 10px rgba(0, 188, 212, 0.5); /* Cyan shadow */
+        transform: scale(1.05); /* Slightly larger */
+    }
+
+    .group:hover .inline-flex {
+        opacity: 0;
+        transform: none;
+    }
+
+    .group .inline-flex {
+        display: none;
+    }
+
+    .group:hover {
+        width: 12rem; /* Adjust the width as needed */
+    }
+}
+
+

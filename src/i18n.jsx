@@ -10,6 +10,7 @@ i18n
     resources: {
       fa: {
         translation: {
+            "ok": "okay",
             "languages": "زبان ها",
             "projects": "پروژه ها",
             "gotoButton": "برو به پروژه",

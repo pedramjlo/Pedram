@@ -2,6 +2,9 @@ import React from 'react';
 
 import Man from '../../images/man.svg';
 
+import ModalButton from '../utils/modal-button';
+
+
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
@@ -10,23 +13,25 @@ const Hero = () => {
 
     return(
         <div className='
-        mt-8
-        p-0
         flex
         flex-col
         justify-between
         content-center
         items-center
+
         text-center
 
-
-        md:p-10 md:flex-row-reverse md:gap-18 md:text-start
+        
+        md:mt-5 md:p-10 md:flex-row-reverse md:gap-18 md:text-start
         '>
+
 
 
             
             <img className='
             trasnform scale-110
+            relative
+            md:bottom-28
             ' src={Man} alt="Man" 
             />
 
@@ -45,7 +50,7 @@ const Hero = () => {
                 leading-15
                 text-balance
 
-                md:text-start md:text-6xl md:leading-18
+                md:text-start md:text-5xl md:leading-18
                 '>
                 {t('welcome')}
                 </span>
@@ -60,11 +65,13 @@ const Hero = () => {
                         {t('description')}
                     </p>
                 </div>
+                
+                <ModalButton />
 
             </div>
             
 
-
+            
             
 
                 

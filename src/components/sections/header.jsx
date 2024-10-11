@@ -3,6 +3,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import ResumeIcons from '../utils/navitems';
+import LanguageButtons from '../utils/language-buttons';
 
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
     return(
         <header className='
             w-full
-            h-auto
+            h-fit
 
             pt-8 px-10
             md:py-5 md:px-11
@@ -24,6 +25,7 @@ const Header = () => {
             flex-col
             justify-between
             items-center
+            gap-8
 
             md:flex-row 
         '>
@@ -42,7 +44,10 @@ const Header = () => {
 
                     text-custom-blue'
                 >{t('logo')}</span>
+
                 </a>
+
+                <LanguageButtons />
 
                 <ResumeIcons />
 

@@ -1,70 +1,48 @@
 import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 
-
-import IR from '../../icons/iri.svg';
+import Ir from '../../icons/iri.svg';
 import GB from '../../icons/uk.svg';
-import DE from '../../icons/ger.svg';
+import GE from '../../icons/ger.svg';
+import i18n from '../../i18n';
+
 
 const LanguageButtons = () => {
-    const { t, i18n } = useTranslation();
+    
+    const { t } = useTranslation();
     const languages = ['fa', 'en', 'de'];
+
+    const setDirection = (lng) => {
+        document.body.style.direction = lng === "fa" ? "rtl" : "ltr";
+    };
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
-        setDirection(lng);
+        setDirection(lng)
     };
 
-
-    const changeFont = (lng) => {
-        if (lng === "fa") {
-            document.body.style.fontFamily = "El Messiri";
-        }
-        else {
-            document.body.style.fontFamily = "Montserrat";
-        }
-    };
-
-
-    const setDirection = (lng) => {
-        document.body.style.direction = lng === 'fa' ? 'rtl' : 'ltr';
-    };
-
-    const flags = {
-        fa: IR,
+    const langFlags = {
+        fa: Ir,
         en: GB,
-        de: DE
+        de: GE
     };
 
-    return (
-        <div className='flex space-x-4'>
-            {languages.map((lng) => (
-                <button
-                    key={lng}
-                    onClick={() => changeLanguage(lng)}
-                    className="
-                        p-0
-                        sm:w-0 sm:h-0
-                        md:w-6 md:h-6
-                        lg:w-8 lg:h-8
 
-                        group relative inline-flex items-center justify-center overflow-hidden bg-neutral-950  transition hover:scale-110 rounded-full">
-                    <img
-                        className='
-                            sm:w-0 sm:h-0
-                            md:w-6 md:h-6
-                            rounded-full
-                            '
-                        src={flags[lng]}
-                        alt={`${lng} flag`}
-                    />
-                    <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]">
-                        <div className="relative h-full w-8 bg-white/20"></div>
-                    </div>
-                </button>
+    return(
+        <div className='
+        flex
+        '>
+            {languages.map((lng) => (
+                <p key={lng}>
+                    <a onClick={() => changeLanguage(lng)} className="link-opacity-75" href="#">
+                        <img src={langFlags[lng]} alt={lng} />
+                    </a>
+                </p>
             ))}
         </div>
     );
 };
+
 
 export default LanguageButtons;

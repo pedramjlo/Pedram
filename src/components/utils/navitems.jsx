@@ -26,7 +26,7 @@ const ResumeIcons = () => {
                 rounded-full
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
-            ">
+            " onclick="location.href = 'https://github.com/pedramjlo';">
                 <img className='
                 w-10 h-10
                 ' src={Github} alt="Github" />

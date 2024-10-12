@@ -7,7 +7,7 @@ import ModalButton from '../utils/modal-button';
 
 import { useTranslation } from 'react-i18next';
 
-const Hero = () => {
+const Hero = ({welcome}) => {
 
     const { t } = useTranslation();
 
@@ -40,6 +40,7 @@ const Hero = () => {
             flex
             flex-col
             gap-10
+            
 
             '>
 
@@ -51,9 +52,9 @@ const Hero = () => {
                 text-balance
 
                 md:text-start md:text-5xl md:leading-18
-                '>
-                {t('welcome')}
-                </span>
+                ' 
+                dangerouslySetInnerHTML={{ __html: t('welcome') }}
+                />
 
                 <div>
                     <p className='

@@ -19,7 +19,7 @@ i18n
 
 
             "logo": "پدرام جلالی",
-             "welcome": "به وبسایت شخصی من خوش آمدید! من پدرام جلالی هستم",
+             "welcome": "به وبسایت شخصی من خوش آمدید! من  <span class='underline decoration-custom-blue underline-offset-2 '> پدرام جلالی</span> هستم",
              "description": "توسعه دهنده سمت سرور. ۲۴ ساله ساکن شهرستان کرمان. علاقه مند به توسعه وب اپلیکیشن های به روز و امن. دارای تجربه در کار با فریم‌ورک‌های مختلف و زبان‌های برنامه‌نویسی متنوع. همیشه به دنبال یادگیری تکنولوژی‌های جدید و بهبود مهارت‌های خود هستم. آماده همکاری در پروژه‌های چالش‌برانگیز و جدید و کارهای تیمی.",
              "certs": "دوره ها و مدارک",
              
@@ -81,8 +81,8 @@ i18n
             "sourceCode": "source code",
             "certs": "Courses & Certificates",
 
-            "logo": "PedramJalali",
-            "welcome": "Welcome to my personal website. I’m Pedram Jalali",
+            "logo": "Pedramjalali",
+            "welcome": "Welcome to my personal website. I’m <span class='underline decoration-custom-blue underline-offset-1 '>Pedram Jalali</span>",
             "description": "Back-end developer. 24 years old, based in Kerman, Iran. Interested in developing up-to-date and secure web applications. Experienced in working with various robust modern frameworks and technologies. Always looking forward to learning new technologies and improving my skills. Ready to collaborate on challenging and innovative projects.",
             
             "primarySkills": "Primary skills",
@@ -118,6 +118,8 @@ i18n
             "todoApp": "To-do-list Application",
             "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
             
+            "portfolio": "My Portfolio",
+            "portfolio-ingreds": "React Js, Tailwind, I18n",
             
 
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
@@ -161,10 +163,10 @@ i18n
             "deutsch": "Deutsch",
             "deutsch-exp":"B1 Goethe inst. Zertifikat",
             "farsi": "Persisch",
-            "farsi-exp": "muttersprachler",
+            "farsi-exp": "Muttersprachler",
 
             "daeiAli": 'Digitalische Restaurantkart',
-            "daeiAliingreds": "Static SPA, HTML/CSS, ReactJS, Javascript, Bootstrap",
+            "daeiAlingreds": "Static SPA, HTML/CSS, ReactJS, Javascript, Bootstrap",
             "daeiAliDelivery": "Liefertermin: 06/2024",
             "daeiAliExplain": "Digitale Speisekarte (QR-Code gescannt) des Daei Ali Restaurants, Kerman, Iran.",
 

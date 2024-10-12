@@ -5,6 +5,7 @@ import Hero from './sections/hero';
 import PrimarySkills from './sections/primaryskills';
 import LanguageSkills from './sections/languageskills';
 
+
 import LineBreaker from './utils/linebreaker';
 
 import { useTranslation } from 'react-i18next';

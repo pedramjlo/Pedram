@@ -8,8 +8,10 @@ import SQLIcon from '../../icons/skills/db-icon.svg';
 import HTMLIcon from '../../icons/skills/html-icon.svg';
 import ReactIcon from '../../icons/react-icon.svg';
 import BSIcon from '../../icons/skills/bs-icon.svg';
-import CsharpIcon from '../../icons/skills/cs-icon.svg';
+import CsharpIcon from '../../icons/skills/csharp-icon.svg';
 import LinuxIcon from '../../icons/skills/linux-icon.svg';
+import TailwindIcon from '../../icons/skills/tailwind-icon.svg';
+
 
 
 import Card from '../utils/card';
@@ -28,7 +30,8 @@ const PrimarySkills = () => {
         {id: 5, icon: HTMLIcon, title:`${t('htmlcss')}`, explain: `${t('html-exp')}`},
         {id: 6, icon: CsharpIcon, title:`${t('csharp')}`, explain: `${t('csharp-exp')}`},
         {id: 7, icon: LinuxIcon, title:`${t('linux')}`, explain: `${t('linux-exp')}`},
-        {id: 8, icon: BSIcon, title:`${t('bootstrap')}`, explain: `${t('bootstrap-exp')}`},
+        {id: 8, icon: BSIcon, title:`${t('bootstrap')}`, explain: `${t('react-exp')}`},
+        {id: 9, icon: TailwindIcon, title:`${t('tailwind')}`, explain: `${t('react-exp')}`},
     ];
 
     return(
@@ -38,6 +41,7 @@ const PrimarySkills = () => {
 
         <div className='flex text-center'>
             <h1 className='
+            p-4
             text-3xl font-bold
             underline decoration-custom-blue underline-offset-1
             md:underline md:decoration-custom-blue md:underline-offset-1
@@ -46,7 +50,7 @@ const PrimarySkills = () => {
 
         <div className='
         flex flex-col text-center justify-center items-center gap-14
-        md:grid md:grid-cols-3 md:gap-20
+        md:p-0 md:grid md:grid-cols-3 md:gap-20
        '>
         {skills.map(skill => (
             <Card 
@@ -55,7 +59,7 @@ const PrimarySkills = () => {
             title={skill.title}
             explain={skill.explain}
             />
-        ))}`
+        ))}
         </div>
 
        </div>

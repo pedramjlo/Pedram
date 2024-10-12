@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Card = ({ icon, title, explain }) => {
+const LanguageCard = ({icon, title, explain }) => {
+    
     const { t } = useTranslation();
 
-    return (
+    return(
         <div className='
-            p-2
             flex flex-col justify-center items-center text-center gap-5
             w-full
             max-w-xs
@@ -28,4 +28,5 @@ const Card = ({ icon, title, explain }) => {
     );
 };
 
-export default Card;
+
+export default LanguageCard;

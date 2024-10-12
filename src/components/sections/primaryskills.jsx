@@ -14,7 +14,7 @@ import TailwindIcon from '../../icons/skills/tailwind-icon.svg';
 
 
 
-import Card from '../utils/card';
+import PSCard from '../cards/pscard';
 
 
 
@@ -54,7 +54,7 @@ const PrimarySkills = () => {
         md:p-0 md:grid md:grid-cols-3 md:gap-20
        '>
         {skills.map(skill => (
-            <Card 
+            <PSCard 
             key={skill.id}
             icon={skill.icon}
             title={skill.title}

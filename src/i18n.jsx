@@ -75,7 +75,7 @@ i18n
         translation: {
             "contact": "Contact me",
 
-            "languages": "Langugaes",
+            "languages": "Languages",
             "projects": "Projects",
             "gotoButton": "Go to project",
             "sourceCode": "source code",

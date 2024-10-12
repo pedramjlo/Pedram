@@ -19,15 +19,15 @@ const Projects = () => {
     const { t } = useTranslation();
 
     const projects = [
-        {id: 1, icon: DaeiAli, title: `${t('daeiAli')}`, ingreds: `${t('daeiAlingreds')}`, delivery: `${t('daeiAliDelivery')}`,  explain: `${t('daeiAliExplain')}`},
-        {id: 2, icon: DjangoImage, title: `${t('blogApp')}`, ingreds: `${t('daeiAlingreds')}`, explain: `${t('daeiAliExplain')}`},
-        {id: 3, icon: DjangoImage, title: `${t('todoApp')}`, ingreds: `${t('daeiAlingreds')}`, explain: `${t('daeiAliExplain')}`},
-        {id: 4, icon: ReactImage, title: `${t('daeiAli')}`, ingreds: `${t('daeiAlingreds')}`, explain: `${t('daeiAliExplain')}`},
+        {id: 1, icon: DaeiAli, title: `${t('daeiAli')}`, ingreds: `${t('daeiAliingreds')}`, delivery: `${t('daeiAliDelivery')}`,  explain: `${t('daeiAliExplain')}`, source: `${t('daeiAliSource')}`},
+        {id: 2, icon: DjangoImage, title: `${t('blogApp')}`, ingreds: `${t('blogAppingreds')}`, explain: `${t('blogAppExplain')}`, source: `${t('blogAppSource')}`},
+        {id: 3, icon: DjangoImage, title: `${t('todoApp')}`, ingreds: `${t('todoAppingreds')}`, explain: `${t('todoAppExplain')}`, source: `${t('todoAppSource')}`},
+        {id: 4, icon: ReactImage, title: `${t('portfolio')}`, ingreds: `${t('portfolio-ingreds')}`, explain: `${t('daeiAliExplain')}`, source: `${t('pedramjalali-portfolio.ir')}`},
     ];
 
     return(
             <div className='
-            flex flex-col items-center gap-1 text-white
+            flex flex-col items-center gap-10 text-white
             md:pb-10
             '>
                 <div className='flex text-center'>
@@ -41,7 +41,7 @@ const Projects = () => {
 
                 <div className='
                     flex flex-col text-center justify-center items-center gap-14
-                    md:p-0 md:grid md:grid-cols-2 md:gap-
+                    md:grid md:grid-cols-2 md:gap-10
                 '>
 
                     {projects.map(project => (
@@ -52,6 +52,7 @@ const Projects = () => {
                         ingreds={project.ingreds}
                         explain={project.explain}
                         delivery={project.delivery}
+                        source={project.source}
                         />
                     ))}
                 </div>

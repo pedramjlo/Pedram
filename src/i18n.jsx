@@ -52,14 +52,22 @@ i18n
               "daeiAliingreds": "منوی آنلاین، استاتیک، HTML/CSS، ReactJS, Bootstrap",
               "daeiAliDelivery": "تحویل پروژه: ۱۴۰۳/۰۳",
               "daeiAliExplain": "منوی دیجیتال (QR code-scanned) رستوران دایی علی کرمان، شهرک باهنر، روبروی پارک نظام مهندسی",
+              "daeiAliSource": "www.daei-fastfood-ali.ir",
 
-              "blogApp": "بلاگ اپلیکیشن",
               "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
               "blogAppExplain": "CRUD app, RestFUL API views, rest framework, Django, user authentication & registration, upvote/downvote posts, users allowed to create post only when the Author role is granted.",
+              "blogAppSource": "github.com/pedramjlo/alketas_blog.git",
 
-              "todoApp": "لیست کار ها - To Do list App",
+              "todoApp": "To-do list Application",
               "todoAppingreds": "Python, Django, template system(HTML+CSS+Javascript), MySQL, Bootstrap",
               "todoAppExplain": "اپلیکیشن لیست کارها، با قابلیت احراز هویت و ساخت کار ها و ویرایش قابلیت های کار ها از جمله پین کردن، تعیین تاریخ انجام، اضافه و حذف حساب کاربری و کار ها, و دریافت نوتیفیکیشن قبل از اتمام مهلت انجام کارها...",
+              "todoAppSource": "github.com/pedramjlo/todo_list.git",
+
+              "portfolio": "My Portfolio (This webiste)",
+              "portfolio-ingreds": "React Js, Tailwind, I18n",
+              "portfolioSourxe": "github.com/pedramjlo/todo_list.git",
+
+              
 
               "pythonCertExplain": "برنامه نویسی پیشرفته پایتون",
               "djangoCertExplain": "جامپ بک اند با جنگو",
@@ -118,7 +126,7 @@ i18n
             "todoApp": "To-do-list Application",
             "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
             
-            "portfolio": "My Portfolio",
+            "portfolio": "My Portfolio (This webiste)",
             "portfolio-ingreds": "React Js, Tailwind, I18n",
             
 
@@ -141,7 +149,7 @@ i18n
             "certs": "Kurse & Zertifikate",
 
             "logo": "PedramJalali",
-            "welcome": "Willkommen auf meiner persönlichen Website. Ich heiße Pedram Jalali.",
+            "welcome": "Willkommen auf meiner persönlichen Website. Ich heiße <span class='underline decoration-custom-blue underline-offset-2 '>PedramJalali</span>.",
             "description": "Serverseitiger Entwickler. 24 Jahre alt, wohnhaft in Kerman, Iran. Interessiert an der Entwicklung aktueller und sicherer Webanwendungen. Erfahren im Umgang mit verschiedenen Frameworks und Programmiersprachen. Immer bestrebt, neue Technologien zu erlernen und meine Fähigkeiten zu verbessern. Bereit zur Zusammenarbeit an herausfordernden und innovativen Projekten.",
             
             "primarySkills": "Hauptfähigkeiten",
@@ -175,6 +183,9 @@ i18n
 
             "todoApp": "To-Do-Liste Anwendung",
             "todoAppExplain": "Eine To-Do-Listen-Anwendung mit Authentifizierungsfunktionen, Aufgaben-Erstellung und Bearbeitungsfunktionen wie Anheften, Festlegen von Fälligkeitsdaten, Hinzufügen und Löschen von Benutzerkonten und Aufgaben sowie dem Erhalt von Benachrichtigungen vor Ablauf der Aufgabenfristen.",
+
+            "portfolio": "My Portfolio (This webiste)",
+            "portfolio-ingreds": "React Js, Tailwind, I18n",
 
             "pythonCertExplain": "Fortgeschrittener Python-Programmierung und objektorientiertes Denken Kurs",
             "djangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",

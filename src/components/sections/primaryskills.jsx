@@ -37,6 +37,7 @@ const PrimarySkills = () => {
     return(
        <div className='
         flex flex-col items-center gap-10 text-white
+        md:pb-10
        '>
 
         <div className='flex text-center'>

@@ -33,11 +33,14 @@ const Home = () => {
         bg-custom-black
         ">
             <Header />
+
             <Hero />
 
             <LineBreaker />
 
             <PrimarySkills />
+
+            <LineBreaker />
             
 
 

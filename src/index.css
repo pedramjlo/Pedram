@@ -14,12 +14,7 @@
         height: 6rem; /* Adjust height for mobile */
     }
     
-    .language-button.active {
-        border: 2px solid #00bcd4; /* Cyan border */
-        background-color: #00bcd4; /* Cyan background */
-        box-shadow: 0 0 10px rgba(0, 188, 212, 0.5); /* Cyan shadow */
-        transform: scale(1.05); /* Slightly larger */
-    }
+    
 
     .group:hover .inline-flex {
         opacity: 0;
@@ -30,9 +25,7 @@
         display: none;
     }
 
-    .group:hover {
-        width: 12rem; /* Adjust the width as needed */
-    }
+  
 }
 
 

@@ -28,14 +28,11 @@ const LanguageButtons = () => {
     };
 
     return (
-        <div className='
-        flex gap-3
-        md:gap-8
-        '>
+        <div className='flex gap-3 md:gap-8'>
             {languages.map((lng) => (
                 <button key={lng} onClick={() => changeLanguage(lng)} className={`
-                group relative inline-flex w-8 h-8 items-center justify-center overflow-hidden rounded-full bg-none px-0 font-medium  transition
-                md:hover:scale-110 md:active:
+                group relative inline-flex w-8 h-8 items-center justify-center overflow-hidden rounded-full bg-none px-0 font-medium transition
+                md:hover:scale-110 
                 ${activeLang === lng ? 'border border-cyan-500 md:scale-95 md:bg-cyan-700 md:shadow md:shadow-cyan-600/50' : ''}
                 `}>
                     <img className="w-full h-full object-cover rounded-full" src={langFlags[lng]} alt={lng} />

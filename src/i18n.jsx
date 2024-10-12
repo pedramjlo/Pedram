@@ -18,7 +18,7 @@ i18n
             "sourceCode": "source code",
             "certs": "Courses & Certificates",
 
-            "logo": "Pedramjalali",
+            "logo": "PedramJalali",
             "welcome": "Welcome to my personal website. I’m <span class='underline decoration-custom-blue underline-offset-1 '>Pedram Jalali</span>",
             "description": "Back-end developer. 24 years old, based in Kerman, Iran. Interested in developing up-to-date and secure web applications. Experienced in working with various robust modern frameworks and technologies. Always looking forward to learning new technologies and improving my skills. Ready to collaborate on challenging and innovative projects.",
             
@@ -31,7 +31,7 @@ i18n
             'sql-exp': '1 year of experience',
             "javascript": "Javascript",
             "javascript-exp": "1 year of experience",
-            "react": "ReactJS",
+            "react": "React JS",
             "react-exp": "less than a year of experience",
             "html-exp": '2 years of experience',
             "csharp-exp": "Familiar with the syntax and fundamental concepts",
@@ -75,7 +75,7 @@ i18n
             
         }
       },
-      
+
       fa: {
         translation: {
             "ok": "okay",
@@ -170,7 +170,7 @@ i18n
             "sql-exp": '1 jahr Erfahrung',
             "javascript": "Javascript",
             "javascript-exp": "1 jahr Erfahrung",
-            "react": "ReactJS",
+            "react": "React JS",
             "react-exp": "weniger als ein Jahr",
             "html-exp": '2 jahre Erfahrung',
             "csharp-exp": "Vertraut mit der Syntax und grundlegenden Konzepten wie LINQ und Ähnlichem",

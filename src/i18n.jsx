@@ -15,6 +15,7 @@ i18n
             "languages": "Languages",
             "projects": "Projects",
             "gotoButton": "Go to project",
+            "gotoCourse": "Go to course",
             "sourceCode": "source code",
             "certs": "Courses & Certificates",
 
@@ -82,6 +83,7 @@ i18n
             "languages": "زبان ها",
             "projects": "پروژه ها",
             "gotoButton": "برو به پروژه",
+            "gotoCourse": "برو به دوره",
             "sourceCode": "سورس کد",
             "contact": "ارتباط با من",
 
@@ -129,7 +131,7 @@ i18n
               "todoAppExplain": "اپلیکیشن لیست کارها، با قابلیت احراز هویت و ساخت کار ها و ویرایش قابلیت های کار ها از جمله پین کردن، تعیین تاریخ انجام، اضافه و حذف حساب کاربری و کار ها, و دریافت نوتیفیکیشن قبل از اتمام مهلت انجام کارها...",
               "todoAppSource": "github.com/pedramjlo/todo_list.git",
 
-              "portfolio": "My Portfolio (This webiste)",
+              "portfolio": "My Portfolio (This website)",
               "portfolio-ingreds": "React Js, Tailwind, I18n",
               "portfolioSourxe": "github.com/pedramjlo/todo_list.git",
 
@@ -154,6 +156,7 @@ i18n
             "languages": "Sprache",
             "projects": "Projekte",
             "gotoButton": "Zum Projekt",
+            "gotoCourse": "Zum Kurs",
             "sourceCode": "Quellcode",
             "certs": "Kurse & Zertifikate",
 

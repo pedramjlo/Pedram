@@ -42,7 +42,7 @@ const PrimarySkills = () => {
 
         <div className='flex text-center'>
             <h1 className='
-            p-0
+            p-4
             text-3xl font-bold
             underline decoration-custom-blue underline-offset-1
             md:underline md:decoration-custom-blue md:underline-offset-1

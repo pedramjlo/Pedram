@@ -21,8 +21,8 @@ const Projects = () => {
     const projects = [
         {id: 1, icon: DaeiAli, title: `${t('daeiAli')}`, ingreds: `${t('daeiAliingreds')}`, delivery: `${t('daeiAliDelivery')}`,  explain: `${t('daeiAliExplain')}`, source: `${t('daeiAliSource')}`},
         {id: 2, icon: DjangoImage, title: `${t('blogApp')}`, ingreds: `${t('blogAppingreds')}`, explain: `${t('blogAppExplain')}`, source: `${t('blogAppSource')}`},
-        {id: 3, icon: DjangoImage, title: `${t('todoApp')}`, ingreds: `${t('todoAppingreds')}`, explain: `${t('todoAppExplain')}`, source: `${t('todoAppSource')}`},
-        {id: 4, icon: ReactImage, title: `${t('portfolio')}`, ingreds: `${t('portfolio-ingreds')}`, explain: `${t('daeiAliExplain')}`, source: `${t('pedramjalali-portfolio.ir')}`},
+        {id: 3, icon: ReactImage, title: `${t('portfolio')}`, ingreds: `${t('portfolio-ingreds')}`, explain: `${t('daeiAliExplain')}`, source: `${t('pedramjalali-portfolio.ir')}`},
+        {id: 4, icon: DjangoImage, title: `${t('todoApp')}`, ingreds: `${t('todoAppingreds')}`, explain: `${t('todoAppExplain')}`, source: `${t('todoAppSource')}`},
     ];
 
     return(

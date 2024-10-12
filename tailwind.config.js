@@ -28,6 +28,19 @@ module.exports = {
         'xl': '1280px',
       },
 
+
+      width: {
+        '12': '3rem',
+        '13': '3.25rem',
+        '15': '3.75rem'
+      },
+
+      heigt: {
+        '12': '3rem',
+        '13': '3.25rem',
+        '15': '3.75rem'
+      },
+
       lineHeight: {
         '11': '2.75rem', 
         '12': '3rem',    
@@ -49,6 +62,12 @@ module.exports = {
         '23': '5.75rem',
         '24': '6rem',
         '25': '6.25rem',
+      },
+
+      textUnderlineOffset: {
+        1: '0.75rem',
+        2: '1rem',
+        3: '2rem',
       },
 
     },

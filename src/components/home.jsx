@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 
 import Header from './sections/header';
 import Hero from './sections/hero';
+import PrimarySkills from './sections/primaryskills';
 
 import LineBreaker from './utils/linebreaker';
 
@@ -35,6 +36,8 @@ const Home = () => {
             <Hero />
 
             <LineBreaker />
+
+            <PrimarySkills />
             
 
 

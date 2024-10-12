@@ -1,0 +1,35 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+
+
+const Card = ({icon, title, explain}) => {
+
+    const { t } = useTranslation();
+
+    return(
+        <div className='
+        p-2
+        flex flex-col justify-center items-center text-center gap-5'>
+
+
+
+            <div className='
+            w-1/2 h-1/2
+            flex items-center justify-center'>
+                <img className='
+                
+                transform transition-transform duration-300 hover:scale-110
+                ' src={icon} alt={title} />
+            </div>
+
+            <div className='flex flex-col justify-center items-center text-center'>
+                <span className='text-custom-white'>{t(title)}</span>
+                <span className='text-custom-gray'>{t(explain)}</span>
+            </div>
+      </div>
+    );
+};
+
+
+export default Card;

@@ -32,7 +32,7 @@ const Languagelanguages = () => {
             <div className='flex text-center'>
                 <h1 className='
                 p-4
-                text-3xl font-bold
+                text-3xl font-bold text-custom-white
                 underline decoration-custom-blue underline-offset-1
                 md:underline md:decoration-custom-blue md:underline-offset-1
                 '>{t('languages')}</h1>
@@ -43,14 +43,14 @@ const Languagelanguages = () => {
             flex flex-col text-center justify-center items-center gap-20
             md:p-0 md:grid md:grid-cols-3 md:gap-44
         '>
-            {languages.map(language => (
-                <LanguageCard 
-                key={language.id}
-                icon={language.icon}
-                title={language.title}
-                explain={language.explain}
-                />
-            ))}
+                {languages.map(language => (
+                    <LanguageCard 
+                    key={language.id}
+                    icon={language.icon}
+                    title={language.title}
+                    explain={language.explain}
+                    />
+                ))}
             </div>
 
        </div>

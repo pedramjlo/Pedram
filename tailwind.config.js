@@ -13,7 +13,8 @@ module.exports = {
         "custom-black": "#1E201E",
         "custom-white": "#FAF9F6",
         "custom-blue": "#58B2FE",
-        "custom-gray": "#AEAEAE"
+        "custom-gray": "#AEAEAE",
+        "custom-green": "#A3F88F"
       },
 
       fonts: {

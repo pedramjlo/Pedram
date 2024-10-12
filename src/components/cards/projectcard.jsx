@@ -1,30 +1,52 @@
+import { space } from 'postcss/lib/list';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-
-
-const ProjectCard = ({icon, title, ingreds, delivery,  explain}) => {
-
+const ProjectCard = ({ icon, title, ingreds, delivery, explain }) => {
     const { t } = useTranslation();
 
-    return(
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"/>
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-            </div>
-        </div>
+    return (
+        <div
+            className="block shadow-secondary-1 dark:bg-surface-dark">
+                
+                <img
+                className="rounded-lg"
+                src={icon}
+                alt="icon" />
 
+            <div className="
+            p-6 text-surface dark:text-white
+            
+            ">
+                
+                <div className='
+                flex flex-col items-center justify-center text-center gap-3
+                '>
+                    <span className="mb-2 text-xl font-bold text-custom-white leading-tight">{t(title)}</span>
+                    
+                    <p className="mb-4 text-base font-normal text-custom-gray">
+                        {t(ingreds)}
+                    </p>
+
+                    <p className="mb-4 text-base font-normal text-custom-gray">
+                        {t(explain)}
+                    </p>
+
+                </div>
+
+                {delivery ? (
+                    <span className='text-custom-green'>{t(delivery)}</span>
+                ) : (
+                    <div className='hidden'></div>
+                )}
+
+
+
+
+                
+            </div>
+            </div>
     );
 };
-
 
 export default ProjectCard;

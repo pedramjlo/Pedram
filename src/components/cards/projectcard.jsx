@@ -26,7 +26,8 @@ const ProjectCard = ({ icon, title, ingreds, delivery, explain, source }) => {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center shadow-xl  rounded-xl   border border-custom-gray border-opacity-10  dark:bg-surface-dark pt-5">
+        <div className="
+        flex flex-col justify-center items-center shadow-xl  rounded-xl   border border-custom-gray border-opacity-10  dark:bg-surface-dark pt-5">
             <img
                 className="w-6/12 h-6/12 rounded-lg"
                 src={icon}

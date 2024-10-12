@@ -8,6 +8,74 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
+      en: {
+        translation: {
+            "contact": "Contact me",
+
+            "languages": "Languages",
+            "projects": "Projects",
+            "gotoButton": "Go to project",
+            "sourceCode": "source code",
+            "certs": "Courses & Certificates",
+
+            "logo": "Pedramjalali",
+            "welcome": "Welcome to my personal website. I’m <span class='underline decoration-custom-blue underline-offset-1 '>Pedram Jalali</span>",
+            "description": "Back-end developer. 24 years old, based in Kerman, Iran. Interested in developing up-to-date and secure web applications. Experienced in working with various robust modern frameworks and technologies. Always looking forward to learning new technologies and improving my skills. Ready to collaborate on challenging and innovative projects.",
+            
+            "primarySkills": "Primary skills",
+            "python": 'Python',
+            "python-exp": '3 years of experience',
+            "django": 'Django',
+            "django-exp": '2 years of experience',
+            "sql": 'SQL',
+            'sql-exp': '1 year of experience',
+            "javascript": "Javascript",
+            "javascript-exp": "1 year of experience",
+            "react": "ReactJS",
+            "react-exp": "less than a year of experience",
+            "html-exp": '2 years of experience',
+            "csharp-exp": "Familiar with the syntax and fundamental concepts",
+            "bootstrap": "Bootstrap",
+            "linux": "Linux",
+            "tailwind": "Tailwind",
+            "csharp": "C#",
+            "htmlcss": 'HTML/CSS',
+
+            "english": "English",
+            "english-exp": "proficient, C1/fluent",
+            "deutsch": "German",
+            "deutsch-exp":"B1 Goethe inst. certification",
+            "farsi": "Persian",
+            "farsi-exp": "native speaker",
+
+            "daeiAli": "Digital Restaurant Menu",
+            "daeiAliingreds": "Static SPA, HTML/CSS, ReactJS, Javascript, Bootstrap",
+            "daeiAliDelivery": "Delivery date: 06/2024",
+            "daeiAliExplain": "Digital menu (QR code-scanned) of Daei Ali Restaurant, Kerman, Iran.",
+
+            "blogApp": "Blog Application",
+            "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
+
+            "todoApp": "To-do-list Application",
+            "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
+            
+            "portfolio": "My Portfolio (This webiste)",
+            "portfolio-ingreds": "React Js, Tailwind, I18n",
+            
+
+            "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
+            "djangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
+            "SQLCertExplain": "Task-Oriented course in SQL",
+            "deisgnPCertExplain": "Task-Oriented Course in Design Patterns",
+
+            "pythonCourseSource": "https://quera.org/college/landpage/3078/python",
+            "djangoCourseSource": "https://quera.org/college/landpage/6091/django",
+            "sqlCourseSource": "https://quera.org/college/landpage/8939/database",
+            "dpCourseSource": "https://quera.org/college/landpage/15166/design-patterns",
+            
+        }
+      },
+      
       fa: {
         translation: {
             "ok": "okay",
@@ -34,12 +102,10 @@ i18n
               "react-exp": 'کمتر از یک سال سابقه',
               "javascript": "جاوا اسکریپت",
               "javascript-exp": "۱ سال سابقه",
-              "htmlcss": 'HTML/CSS',
               "html-exp": "۲ سال سابقه",
-              "csharp": "C#",
+              
               "csharp-exp": "آشنا با سینتکس و اصول اساسی  ",
-              "bootstrap": "Bootstrap",
-              "tailwind": "Tailwind",
+              
 
               "farsi": "فارسی",
               "farsi-exp": "زبان مادری",
@@ -79,64 +145,7 @@ i18n
 
         }
       },
-      en: {
-        translation: {
-            "contact": "Contact me",
-
-            "languages": "Languages",
-            "projects": "Projects",
-            "gotoButton": "Go to project",
-            "sourceCode": "source code",
-            "certs": "Courses & Certificates",
-
-            "logo": "Pedramjalali",
-            "welcome": "Welcome to my personal website. I’m <span class='underline decoration-custom-blue underline-offset-1 '>Pedram Jalali</span>",
-            "description": "Back-end developer. 24 years old, based in Kerman, Iran. Interested in developing up-to-date and secure web applications. Experienced in working with various robust modern frameworks and technologies. Always looking forward to learning new technologies and improving my skills. Ready to collaborate on challenging and innovative projects.",
-            
-            "primarySkills": "Primary skills",
-            "python": 'Python',
-            "python-exp": '3 years of experience',
-            "django": 'Django',
-            "django-exp": '2 years of experience',
-            "sql": 'SQL',
-            'sql-exp': '1 year of experience',
-            "javascript": "Javascript",
-            "javascript-exp": "1 year of experience",
-            "react": "ReactJS",
-            "react-exp": "less than a year of experience",
-            "html-exp": '2 years of experience',
-            "csharp-exp": "Familiar with the syntax and fundamental concepts",
-            "linux": "Linux",
-
-            "english": "English",
-            "english-exp": "proficient, C1/fluent",
-            "deutsch": "German",
-            "deutsch-exp":"B1 Goethe inst. certification",
-            "farsi": "Persian",
-            "farsi-exp": "native speaker",
-
-            "daeiAli": "Digital Restaurant Menu",
-            "daeiAliingreds": "Static SPA, HTML/CSS, ReactJS, Javascript, Bootstrap",
-            "daeiAliDelivery": "Delivery date: 06/2024",
-            "daeiAliExplain": "Digital menu (QR code-scanned) of Daei Ali Restaurant, Kerman, Iran.",
-
-            "blogApp": "Blog Application",
-            "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
-
-            "todoApp": "To-do-list Application",
-            "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
-            
-            "portfolio": "My Portfolio (This webiste)",
-            "portfolio-ingreds": "React Js, Tailwind, I18n",
-            
-
-            "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
-            "djangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
-            "SQLCertExplain": "Task-Oriented course in SQL",
-            "deisgnPCertExplain": "Task-Oriented Course in Design Patterns",
-            
-        }
-      },
+      
       de: {
         translation: {
 
@@ -188,14 +197,17 @@ i18n
             "portfolio-ingreds": "React Js, Tailwind, I18n",
 
             "pythonCertExplain": "Fortgeschrittener Python-Programmierung und objektorientiertes Denken Kurs",
+
             "djangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
+
             "SQLCertExplain": "Aufgabenorientierter Kurs in SQL",
+
             "deisgnPCertExplain": "Aufgabenorientierter Kurs in Design Patterns",
         }
       }
     },
 
-    fallbackLng: "fa",
+    fallbackLng: "en",
     interpolation: {
       escapeValue: false
     }

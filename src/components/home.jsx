@@ -5,6 +5,7 @@ import Hero from './sections/hero';
 import PrimarySkills from './sections/primaryskills';
 import LanguageSkills from './sections/languageskills';
 import Projects from './sections/projects';
+import Certifications from './sections/certifications';
 
 
 import LineBreaker from './utils/linebreaker';
@@ -49,6 +50,8 @@ const Home = () => {
             <Projects />
 
             <LineBreaker />
+
+            <Certifications />
 
 
 

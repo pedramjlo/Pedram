@@ -51,7 +51,7 @@ const PrimarySkills = () => {
 
         <div className='
         flex flex-col text-center justify-center items-center gap-14
-        md:p-0 md:grid md:grid-cols-3 md:gap-36
+        md:p-0 md:grid md:grid-cols-3 md:gap-32
        '>
         {skills.map(skill => (
             <PSCard 

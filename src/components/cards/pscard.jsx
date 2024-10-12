@@ -6,9 +6,9 @@ const PSCard = ({ icon, title, explain }) => {
 
     return (
         <div className='
-            p-2
+            p-3.5
             flex flex-col justify-center items-center text-center gap-5
-            w-full
+
             max-w-xs
             '>
             <div className='

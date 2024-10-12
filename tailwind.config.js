@@ -62,6 +62,7 @@ module.exports = {
         '23': '5.75rem',
         '24': '6rem',
         '25': '6.25rem',
+        '35': '8.75rem'
       },
 
       textUnderlineOffset: {

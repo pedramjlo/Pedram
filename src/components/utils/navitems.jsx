@@ -3,10 +3,19 @@ import Linkedin from '../../icons/linkedin.svg';
 import Github from '../../icons/gh.svg';
 
 const ResumeIcons = () => {
+
+    const RedirectToProject = (path) => {
+        if (path.startsWith('http')) {
+            window.location.href = path;
+        } else {
+            window.location.href = `http://${path}`;
+        }
+    };
+
     return (
         <div className='
         flex
-         gap-3'>
+         gap-1'>
 
             <button className="
                 w-full
@@ -26,7 +35,7 @@ const ResumeIcons = () => {
                 rounded-full
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
-            " onclick="location.href = 'https://github.com/pedramjlo';">
+            " onClick={() => RedirectToProject("https://github.com/pedramjlo")}>
                 <img className='
                 w-10 h-10
                 ' src={Github} alt="Github" />

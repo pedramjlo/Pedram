@@ -37,7 +37,7 @@ const CertCard = ({id, icon, title, source}) => {
             
 
             <a href="#" onClick={toggleModal} class="flex flex-col gap-5 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <img className='rounded-md' src={icon} alt="" />
+                <img className='' src={icon} alt="" />
             <span class="font-medium text-gray-700 dark:text-gray-400">{t(title)}</span>
             </a>
 

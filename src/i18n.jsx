@@ -36,12 +36,8 @@ i18n
             "react-exp": "less than a year of experience",
             "html-exp": '2 years of experience',
             "csharp-exp": "Familiar with the syntax and fundamental concepts",
-            "bootstrap": "Bootstrap",
-            "linux": "Linux",
-            "tailwind": "Tailwind",
-            "csharp": "C#",
-            "htmlcss": 'HTML/CSS',
-
+            "linux-exp": "over a year of exper.",
+            
             "english": "English",
             "english-exp": "proficient, C1/fluent",
             "deutsch": "German",
@@ -105,6 +101,13 @@ i18n
               "javascript": "جاوا اسکریپت",
               "javascript-exp": "۱ سال سابقه",
               "html-exp": "۲ سال سابقه",
+              "bootstrap": "Bootstrap",
+              "linux": "Linux",
+              "linux-exp": "بیشتر از یک سال سابقه",
+              "tailwind": "Tailwind",
+              "csharp": "C#",
+              "htmlcss": 'HTML/CSS',
+
               
               "csharp-exp": "آشنا با سینتکس و اصول اساسی  ",
               
@@ -164,17 +167,18 @@ i18n
             
             "primarySkills": "Hauptfähigkeiten",
             "python": 'Python',
-            "python-exp": '3 jahre Erfahrung',
+            "python-exp": '3 Jahre Erfahrung',
             "django": 'Django',
-            "django-exp": '2 jahre Erfahrung',
+            "django-exp": '2 Jahre Erfahrung',
             "sql": 'SQL',
-            "sql-exp": '1 jahr Erfahrung',
+            "sql-exp": '1 Jahr Erfahrung',
             "javascript": "Javascript",
-            "javascript-exp": "1 jahr Erfahrung",
+            "javascript-exp": "1 Jahr Erfahrung",
             "react": "React JS",
             "react-exp": "weniger als ein Jahr",
-            "html-exp": '2 jahre Erfahrung',
+            "html-exp": '2 Jahre Erfahrung',
             "csharp-exp": "Vertraut mit der Syntax und grundlegenden Konzepten wie LINQ und Ähnlichem",
+            "linux-exp": "über ein Jahr Erfahrung",
 
             "english": "Englisch",
             "english-exp": "Fortgeschritten C1/flieẞend",
@@ -210,7 +214,8 @@ i18n
       }
     },
 
-    fallbackLng: "en",
+    fallbackLng: "fa",
+    lng: "fa",
     interpolation: {
       escapeValue: false
     }

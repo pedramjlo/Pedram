@@ -24,18 +24,24 @@ const ResumeIcons = () => {
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
             ">
+
                 <img className='
                 w-10 h-10
                 ' src={Linkedin} alt="Linkedin" />
             </button>   
 
-            <button className="
+          
+
+            <button  className="
                 w-full
                 md:w-1/2
                 rounded-full
                 cursor-pointer
                 px-3 py-1 text-sm text-white shadow-lg shadow-neutral-500/20 transition active:scale-[.95]
-            " onClick={() => RedirectToProject("https://github.com/pedramjlo")}>
+            " onClick={() => RedirectToProject("https://github.com/pedramjlo")}
+            >
+                
+
                 <img className='
                 w-10 h-10
                 ' src={Github} alt="Github" />

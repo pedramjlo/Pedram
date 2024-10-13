@@ -34,7 +34,7 @@ i18n
             "javascript-exp": "1 year of experience",
             "react": "React JS",
             "react-exp": "less than a year of experience",
-            "html-exp": '2 years of experience',
+
             "csharp-exp": "Familiar with the syntax and fundamental concepts",
             "linux-exp": "over a year of exper.",
             
@@ -75,7 +75,7 @@ i18n
 
       fa: {
         translation: {
-            "ok": "okay",
+            "ok": "ok",
             "languages": "زبان ها",
             "projects": "پروژه ها",
             "gotoButton": "برو به پروژه",

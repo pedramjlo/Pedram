@@ -65,11 +65,7 @@ i18n
             "SQLCertExplain": "Task-Oriented course in SQL",
             "deisgnPCertExplain": "Task-Oriented Course in Design Patterns",
 
-            "pythonCourseSource": "https://quera.org/college/landpage/3078/python",
-            "djangoCourseSource": "https://quera.org/college/landpage/6091/django",
-            "sqlCourseSource": "https://quera.org/college/landpage/8939/database",
-            "dpCourseSource": "https://quera.org/college/landpage/15166/design-patterns",
-            
+
         }
       },
 
@@ -147,6 +143,11 @@ i18n
               "deisgnPCertExplain": "آموزش عملی دیزاین پترن ها",
 
 
+              "pythonCourseSource": "https://quera.org/college/landpage/3078/python",
+              "djangoCourseSource": "https://quera.org/college/landpage/6091/django",
+              "sqlCourseSource": "https://quera.org/college/landpage/8939/database",
+              "dpCourseSource": "https://quera.org/college/landpage/15166/design-patterns",
+              
         }
       },
       

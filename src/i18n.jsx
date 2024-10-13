@@ -53,7 +53,7 @@ i18n
             "blogApp": "Blog Application",
             "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
 
-            "todoApp": "To-do-list Application",
+            
             "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
             
             "portfolio": "My Portfolio (This webiste)",
@@ -107,6 +107,7 @@ i18n
               "tailwind": "Tailwind",
               "csharp": "C#",
               "htmlcss": 'HTML/CSS',
+              "mysql": "MySQL",
 
               
               "csharp-exp": "آشنا با سینتکس و اصول اساسی  ",

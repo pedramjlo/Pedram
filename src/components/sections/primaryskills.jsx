@@ -11,6 +11,7 @@ import BSIcon from '../../icons/skills/bs-icon.svg';
 import CsharpIcon from '../../icons/skills/csharp-icon.svg';
 import LinuxIcon from '../../icons/skills/linux-icon.svg';
 import TailwindIcon from '../../icons/skills/tailwind-icon.svg';
+import MySQL from '../../icons/skills/mysql-icon.svg';
 
 
 
@@ -32,6 +33,7 @@ const PrimarySkills = () => {
         {id: 7, icon: LinuxIcon, title:`${t('linux')}`, explain: `${t('linux-exp')}`},
         {id: 8, icon: BSIcon, title:`${t('bootstrap')}`, explain: `${t('react-exp')}`},
         {id: 9, icon: TailwindIcon, title:`${t('tailwind')}`, explain: `${t('react-exp')}`},
+        {id: 10, icon: MySQL, title:`${t('mysql')}`, explain: `${t('linux-exp')}`},
     ];
 
     return(

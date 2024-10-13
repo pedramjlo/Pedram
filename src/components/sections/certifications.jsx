@@ -32,7 +32,7 @@ const Certifications = () => {
                         text-3xl font-bold text-custom-white
                         underline decoration-custom-blue underline-offset-1
                         md:underline md:decoration-custom-blue md:underline-offset-1
-                        '>{t('projects')}</h1>
+                        '>{t('certs')}</h1>
                 </div>
 
                 <div className='

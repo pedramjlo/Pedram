@@ -89,7 +89,7 @@ i18n
 
 
             "logo": "پدرام جلالی",
-             "welcome": "به وبسایت شخصی من خوش آمدید! من  <span class='underline decoration-custom-blue underline-offset-2 '> پدرام جلالی</span> هستم",
+             "welcome": "به وبسایت شخصی من خوش آمدید! من  <span class='underline decoration-custom-blue underline-offset-2 '> پدرام جلالی</span> هستم.",
              "description": "توسعه دهنده سمت سرور. ۲۴ ساله ساکن شهرستان کرمان. علاقه مند به توسعه وب اپلیکیشن های به روز و امن. دارای تجربه در کار با فریم‌ورک‌های مختلف و زبان‌های برنامه‌نویسی متنوع. همیشه به دنبال یادگیری تکنولوژی‌های جدید و بهبود مهارت‌های خود هستم. آماده همکاری در پروژه‌های چالش‌برانگیز و جدید و کارهای تیمی.",
              "certs": "دوره ها و مدارک",
              
@@ -100,7 +100,7 @@ i18n
               "django-exp": '۲ سال سابقه',
               "sql": 'SQL',
               "sql-exp": '۱ سال سابقه',
-              "react": 'ReactJS',
+              "react": 'React JS',
               "react-exp": 'کمتر از یک سال سابقه',
               "javascript": "جاوا اسکریپت",
               "javascript-exp": "۱ سال سابقه",
@@ -117,7 +117,7 @@ i18n
               "deutsch-exp": "دارای مدرک B1 موسسه گوته",
 
               "daeiAli": 'منوی دیجیتال رستوران',
-              "daeiAliingreds": "منوی آنلاین، استاتیک، HTML/CSS، ReactJS, Bootstrap",
+              "daeiAliingreds": "منوی آنلاین، استاتیک، HTML/CSS، React JS, Bootstrap",
               "daeiAliDelivery": "تحویل پروژه: ۱۴۰۳/۰۳",
               "daeiAliExplain": "منوی دیجیتال (QR code-scanned) رستوران دایی علی کرمان، شهرک باهنر، روبروی پارک نظام مهندسی",
               "daeiAliSource": "www.daei-fastfood-ali.ir",
@@ -141,8 +141,6 @@ i18n
               "djangoCertExplain": "جامپ بک اند با جنگو",
               "SQLCertExplain": "آموزش عملی دیتابیس",
               "deisgnPCertExplain": "آموزش عملی دیزاین پترن ها",
-
-              
 
 
         }
@@ -186,7 +184,7 @@ i18n
             "farsi-exp": "Muttersprachler",
 
             "daeiAli": 'Digitalische Restaurantkart',
-            "daeiAlingreds": "Static SPA, HTML/CSS, ReactJS, Javascript, Bootstrap",
+            "daeiAlingreds": "Static SPA, HTML/CSS, React JS, Javascript, Bootstrap",
             "daeiAliDelivery": "Liefertermin: 06/2024",
             "daeiAliExplain": "Digitale Speisekarte (QR-Code gescannt) des Daei Ali Restaurants, Kerman, Iran.",
 
@@ -200,11 +198,13 @@ i18n
             "portfolio-ingreds": "React Js, Tailwind, I18n",
 
             "pythonCertExplain": "Fortgeschrittener Python-Programmierung und objektorientiertes Denken Kurs",
-
             "djangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
-
             "SQLCertExplain": "Aufgabenorientierter Kurs in SQL",
+            "deisgnPCertExplain": "Aufgabenorientierter Kurs in Design Patterns",
 
+            "pythonCertExplain": "Fortgeschrittener Python-Programmierung und objektorientiertes Denken Kurs",
+            "djangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
+            "SQLCertExplain": "Aufgabenorientierter Kurs in SQL",
             "deisgnPCertExplain": "Aufgabenorientierter Kurs in Design Patterns",
         }
       }

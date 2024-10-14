@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import Call from '../../icons/contact/call-icon.svg';
-import Mail from '../../icons/contact/mail-icon.svg';
-import Base from '../../icons/contact/home-icon.svg';
+import Telergam from '../../icons/contact/telegram-icon.svg';
+import Mail from '../../icons/contact/email-icon.svg';
+import Base from '../../icons/contact/ehome-icon.svg';
 
 const ModalButton = () => {
     const { t } = useTranslation();
@@ -48,10 +48,12 @@ const ModalButton = () => {
                             {/* Modal Body Content here */} 
 
                             <div>
-                                <a className='flex jusify-center  flex-col self-center items-center' href="tel:+989336335973">
-                                    <img className='w-8 h-8' src={Call} alt="call" />
-                                    <span className='text-custom-white'>+933 633 5973</span>
+                            
+                                <a className='flex jusify-center flex-col self-center items-center' href="https://t.me/pedram">
+                                <img className='w-8 h-8' src={Telergam} alt="telegram" />
+                                <span dir='ltr' className='text-custom-white'>{t('telegram')}</span>
                                 </a>
+
                             </div>
 
                             <div>

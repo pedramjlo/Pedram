@@ -71,6 +71,8 @@ i18n
 
       fa: {
         translation: {
+            "telegram": "@pedramioi",
+
             "ok": "ok",
             "languages": "زبان ها",
             "projects": "پروژه ها",

@@ -39,7 +39,7 @@ const Languagelanguages = () => {
             </div>
 
             <div className='
-            mt-8
+            my-12
             flex flex-col text-center justify-center items-center gap-20
             md:p-0 md:grid md:grid-cols-3 md:gap-44
         '>

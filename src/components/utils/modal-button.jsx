@@ -59,7 +59,7 @@ const ModalButton = () => {
                             <div>
                                 <a className='flex jusify-center  flex-col self-center items-center' href="mailto:pedram_sif@tuta.io">
                                     <img className='w-8 h-8' src={Mail} alt="mail"/>
-                                    <span className='text-custom-white'>pedram_sif@tuta.io</span>
+                                    <span className='text-custom-white'>pedram.2000.jalali@gmail.com</span>
                                 </a>
                             </div>
 

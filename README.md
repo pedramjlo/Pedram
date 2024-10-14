@@ -2,9 +2,13 @@
 
 My exclusive interationalised Portfolio website. 
 
+
+
 ## What technologies does the project use?
 
 The website is a static multiple language single page application written using HTML, React JS, and eventually Tailwind as the UI framework.
+
+
 
 ## Some elaborations
 

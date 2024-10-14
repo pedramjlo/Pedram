@@ -1,6 +1,6 @@
 ## What is it? 
 
-My exclusive interationalised Portfolio website. 
+My exclusive interationalized Portfolio website. 
 
 
 

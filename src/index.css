@@ -10,11 +10,9 @@
 /* Disable hover effect and first container on smaller devices */
 @media (max-width: 768px) {
     .language-button {
-        width: 6rem; /* Adjust width for mobile */
-        height: 6rem; /* Adjust height for mobile */
+        width: 6rem; 
+        height: 6rem; 
     }
-    
-    
 
     .group:hover .inline-flex {
         opacity: 0;

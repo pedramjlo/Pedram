@@ -49,9 +49,9 @@ const ModalButton = () => {
 
                             <div>
                             
-                                <a className='flex jusify-center flex-col self-center items-center' href="https://t.me/pedram">
+                                <a className='flex jusify-center flex-col self-center items-center' href={`https://t.me/${t('telegramId')}`}>
                                 <img className='w-8 h-8' src={Telergam} alt="telegram" />
-                                <span dir='ltr' className='text-custom-white'>{t('telegram')}</span>
+                                <span dir='ltr' className='text-custom-white'>@{t('telegramId')}</span>
                                 </a>
 
                             </div>

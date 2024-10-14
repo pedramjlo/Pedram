@@ -71,7 +71,7 @@ i18n
 
       fa: {
         translation: {
-            "telegram": "@pedramioi",
+            "telegramId": "pedramioi",
 
             "ok": "ok",
             "languages": "زبان ها",
@@ -103,7 +103,7 @@ i18n
               "linux": "Linux",
               "linux-exp": "بیشتر از یک سال سابقه",
               "tailwind": "Tailwind",
-              "csharp": "C#",
+              "csharp": "<span dir='ltr'>C#</span>",
               "htmlcss": 'HTML/CSS',
               "mysql": "MySQL",
 
